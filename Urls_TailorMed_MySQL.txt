@@ -1,0 +1,13 @@
+create Table Urls_TailorMed
+(
+Row_ID int primary key not null,
+Url varchar (100) null, 
+Risk varchar (100)  null , 
+Voting  varchar (100) null, 
+Category varchar (100)   null , 
+Timestamp datetime null
+);
+
+
+SELECT * FROM sys.urls_tailormed;
+
